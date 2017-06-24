@@ -1,0 +1,15 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title><%=title%></title>
+</head>
+<body>
+    <dl>
+        <dt>用户名</dt>
+        <%  for(var i=0;i<users.length;i++){  %>
+        <dd data-id="<%=users[i].id%>"><%=users[i].username%></dd>
+        <%  }  %>
+    </dl>
+</body>
+</html>
