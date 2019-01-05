@@ -106,7 +106,7 @@ writeFileFn = (str, res) => {
         }
         res.send({
             "flag": 1,
-            "message": "新增成功"
+            "message": "success"
         });
     })
 };
