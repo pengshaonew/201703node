@@ -2,9 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e82072ee-7a2f-4499-bbe9-c79e444a3101" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/commodity.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/containers/server.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/data/commodityData.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/1.express/1.express.js" beforeDir="false" afterPath="$PROJECT_DIR$/1.express/1.express.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/1.express/commodityData.json" beforeDir="false" afterPath="$PROJECT_DIR$/1.express/commodityData.json" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -18,20 +21,20 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="1.express.js" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/1.express/1.express.js">
+      <file leaf-file-name="server.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/containers/server.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="456">
-              <caret line="27" column="3" lean-forward="true" selection-start-line="27" selection-start-column="3" selection-end-line="27" selection-end-column="3" />
+            <state relative-caret-position="114">
+              <caret line="18" column="41" lean-forward="true" selection-start-line="18" selection-start-column="41" selection-end-line="18" selection-end-column="41" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="commodityData.json" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/1.express/commodityData.json">
+      <file leaf-file-name="commodity.js" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/components/commodity.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="95">
-              <caret line="5" column="1" lean-forward="true" selection-start-line="5" selection-start-column="1" selection-end-line="5" selection-end-column="1" />
+            <state relative-caret-position="81">
+              <caret line="81" column="35" selection-start-line="81" selection-start-column="17" selection-end-line="81" selection-end-column="35" />
             </state>
           </provider>
         </entry>
@@ -42,7 +45,14 @@
     <findStrings>
       <find>readFile</find>
       <find>fs</find>
+      <find>SON.stringify(data);</find>
+      <find>status_codes</find>
+      <find>_http_server</find>
+      <find>userName</find>
     </findStrings>
+    <replaceStrings>
+      <replace>name</replace>
+    </replaceStrings>
     <dirStrings>
       <dir>D:\phpStudy\WWW\node\1.express</dir>
     </dirStrings>
@@ -56,6 +66,10 @@
         <option value="$PROJECT_DIR$/1.express/5.routerware/server.js" />
         <option value="$PROJECT_DIR$/1.express/commodityData.json" />
         <option value="$PROJECT_DIR$/1.express/1.express.js" />
+        <option value="$PROJECT_DIR$/src/containers/1.express.js" />
+        <option value="$PROJECT_DIR$/src/containers/server.js" />
+        <option value="$PROJECT_DIR$/src/data/commodityData.json" />
+        <option value="$PROJECT_DIR$/src/components/commodity.js" />
       </list>
     </option>
   </component>
@@ -82,10 +96,9 @@
     </packageJsonPaths>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="-10" />
-    <option name="y" value="-10" />
-    <option name="width" value="1939" />
-    <option name="height" value="1049" />
+    <option name="x" value="120" />
+    <option name="width" value="1188" />
+    <option name="height" value="1103" />
   </component>
   <component name="ProjectLevelVcsManager">
     <ConfirmationsSetting value="2" id="Add" />
@@ -106,7 +119,19 @@
             <path>
               <item name="node" type="b2602c69:ProjectViewProjectNode" />
               <item name="node" type="462c0819:PsiDirectoryNode" />
-              <item name="1.express" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="node" type="b2602c69:ProjectViewProjectNode" />
+              <item name="node" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="components" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="node" type="b2602c69:ProjectViewProjectNode" />
+              <item name="node" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="data" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -123,6 +148,13 @@
     <property name="restartRequiresConfirmation" value="false" />
     <property name="settings.editor.selected.configurable" value="Settings.JavaScript" />
   </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\phpStudy\WWW\node\src\data" />
+      <recent name="D:\phpStudy\WWW\node\src\components" />
+      <recent name="D:\phpStudy\WWW\node\src\containers" />
+    </key>
+  </component>
   <component name="RunDashboard">
     <option name="ruleStates">
       <list>
@@ -135,8 +167,9 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Node.js.1.express.js">
+  <component name="RunManager" selected="Node.js.server.js (1)">
     <configuration name="1.express.js" type="NodeJSConfigurationType" factoryName="Node.js" temporary="true" path-to-js-file="1.express.js" working-dir="$PROJECT_DIR$/1.express" />
+    <configuration name="server.js (1)" type="NodeJSConfigurationType" factoryName="Node.js" temporary="true" nameIsGenerated="true" path-to-js-file="server.js" working-dir="$PROJECT_DIR$/src/containers" />
     <configuration name="server.js" type="NodeJSConfigurationType" factoryName="Node.js" temporary="true" path-to-js-file="server.js" working-dir="$PROJECT_DIR$/1.express/5.routerware" />
     <configuration default="true" type="js.build_tools.gulp" factoryName="Gulp.js">
       <node-interpreter>project</node-interpreter>
@@ -149,9 +182,11 @@
     <list>
       <item itemvalue="Node.js.server.js" />
       <item itemvalue="Node.js.1.express.js" />
+      <item itemvalue="Node.js.server.js (1)" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Node.js.server.js (1)" />
         <item itemvalue="Node.js.1.express.js" />
         <item itemvalue="Node.js.server.js" />
       </list>
@@ -170,12 +205,12 @@
       <workItem from="1498300574197" duration="97000" />
       <workItem from="1521359806558" duration="2674000" />
       <workItem from="1546602217141" duration="106000" />
-      <workItem from="1546602342890" duration="3726000" />
+      <workItem from="1546602342890" duration="15052000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="6603000" />
+    <option name="totallyTimeSpent" value="17929000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
@@ -187,12 +222,12 @@
       <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
       <window_info anchor="bottom" id="Find" order="1" />
       <window_info anchor="bottom" id="Version Control" order="7" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.4122682" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.24393724" />
       <window_info id="npm" order="2" side_tool="true" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Terminal" order="7" weight="0.34950072" />
       <window_info id="Favorites" order="2" side_tool="true" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.5349501" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.35520685" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="right" id="Commander" order="0" weight="0.4" />
@@ -209,7 +244,7 @@
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <option name="time" value="8" />
+      <option name="time" value="23" />
     </breakpoint-manager>
     <watches-manager>
       <configuration name="NodeJSConfigurationType">
@@ -239,41 +274,84 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/1.express/6.send.js">
+    <entry file="file://$PROJECT_DIR$/1.express/5.routerware/routers/article.js">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/1.express/commodityData.json">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="437">
-          <caret line="26" column="18" selection-start-line="26" selection-start-column="13" selection-end-line="26" selection-end-column="18" />
+        <state relative-caret-position="190">
+          <caret line="10" column="10" lean-forward="true" selection-start-line="10" selection-start-column="10" selection-end-line="10" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/1.express/5.middleware.js">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/1.express/2.params.js">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/1.express/4.middle.js">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/1.express/1.express.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret line="15" column="3" lean-forward="true" selection-start-line="15" selection-start-column="3" selection-end-line="15" selection-end-column="3" />
+          <folding>
+            <element signature="e#1125#1668#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/package.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="209">
+          <caret line="11" column="4" lean-forward="true" selection-start-line="11" selection-start-column="4" selection-end-line="11" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/1.express/5.routerware/server.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="95">
+          <caret line="5" selection-start-line="5" selection-end-line="9" selection-end-column="3" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/1.express/5.routerware/routers/user.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="190">
-          <caret line="10" column="3" lean-forward="true" selection-start-line="10" selection-start-column="3" selection-end-line="10" selection-end-column="3" />
+        <state relative-caret-position="95">
+          <caret line="5" column="17" lean-forward="true" selection-start-line="5" selection-start-column="17" selection-end-line="5" selection-end-column="17" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/1.express/5.routerware/routers/article.js">
+    <entry file="file://$PROJECT_DIR$/1.express/middelware.js">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/1.express/5.routerware/server.js">
+    <entry file="file://$PROJECT_DIR$/1.express/6.send.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="57">
-          <caret line="3" column="16" lean-forward="true" selection-start-line="3" selection-start-column="16" selection-end-line="3" selection-end-column="16" />
+        <state>
+          <caret column="33" lean-forward="true" selection-start-column="33" selection-end-line="1" selection-end-column="56" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/1.express/commodityData.json">
+    <entry file="file://$PROJECT_DIR$/src/containers/server.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="95">
-          <caret line="5" column="1" lean-forward="true" selection-start-line="5" selection-start-column="1" selection-end-line="5" selection-end-column="1" />
+        <state relative-caret-position="114">
+          <caret line="18" column="41" lean-forward="true" selection-start-line="18" selection-start-column="41" selection-end-line="18" selection-end-column="41" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/1.express/1.express.js">
+    <entry file="file://$PROJECT_DIR$/src/data/commodityData.json">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="456">
-          <caret line="27" column="3" lean-forward="true" selection-start-line="27" selection-start-column="3" selection-end-line="27" selection-end-column="3" />
+        <state relative-caret-position="76">
+          <caret line="4" column="20" lean-forward="true" selection-start-line="4" selection-start-column="20" selection-end-line="4" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/commodity.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="81">
+          <caret line="81" column="35" selection-start-line="81" selection-start-column="17" selection-end-line="81" selection-end-column="35" />
         </state>
       </provider>
     </entry>
